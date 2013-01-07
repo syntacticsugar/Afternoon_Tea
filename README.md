@@ -1,4 +1,4 @@
-![Alt text](http://s14.postimage.org/jbaaw6vdd/logo.png)
+![Alt text](https://github.com/syntacticsugar/Afternoon_Tea/blob/master/logo.png)
 ##Project Overview
 
 wherein I chronicle my daily/weekly progress on the Yellow Brick Road, aka _"How to Design Programs (2nd edition"_ by Mathias Felleison et alia.
