@@ -256,12 +256,12 @@
  #";; about the language level of this file in a form that our tools ca"
  #"n easily process."
 ) 0 0 4 29 1 #"\n"
-0 0 4 3 253
+0 0 4 3 256
 (
- #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname 2b3_bools"
- #"_text) (read-case-sensitive #t) (teachpacks ((lib \"image.ss\" \"tea"
- #"chpack\" \"2htdp\"))) (htdp-settings #(#t constructor repeating-deci"
- #"mal #f #t none #f ((lib \"image.ss\" \"teachpack\" \"2htdp\")))))"
+ #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname |#2b3_boo"
+ #"ls_text|) (read-case-sensitive #t) (teachpacks ((lib \"image.ss\" \""
+ #"teachpack\" \"2htdp\"))) (htdp-settings #(#t constructor repeating-d"
+ #"ecimal #f #t none #f ((lib \"image.ss\" \"teachpack\" \"2htdp\")))))"
 ) 0 0 4 29 1 #"\n"
 0 0 22 3 1 #"("
 0 0 14 3 2 #"or"
