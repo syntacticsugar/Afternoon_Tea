@@ -60,3 +60,15 @@
 
 (string-insert "rainbow" 4)
 ; yay!
+
+; Exercise 22: Define the function string-delete, which consumes 
+; a string and a number i and which deletes the ith position from str.
+; Assume i is a number between 0 (inclusive) and the length of the 
+; given string (exclusive)
+; example (string-delete "rainbow" 4) ==> `rainow` (no "b")
+
+(define (string-delete rainbow i)
+  (string-append (substring rainbow 0 i) 
+                 (substring rainbow (+ i 1) (string-length rainbow))))
+(string-delete "rainbow" 4)
+; yay!
