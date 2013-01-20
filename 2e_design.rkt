@@ -23,10 +23,28 @@
 ; Exercise 29: Design the function image-area, 
 ; which computes the area of a given image. 
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-; String -> String
+; Image -> Integer
+(define image-area
+  (lambda (image)
+    (* (image-length image) (image-width image))))
 
 ; Exercise 30: Design the function string-rest, 
 ; which produces a string like the given one
 ; with the first character removed.
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ; String -> String
+; string sans first char
+; given: "switzerland", expect: "witzerland"
+
+(define (string-rest koala)
+  (substring koala 1 (string-length koala)))
+
+; Exercise 31: Design the function string-remove-last ("beep"), 
+; which produces a string like the given one with the
+; last character removed.
+; String -> String
+; string sans last char
+; given: "Switzerland", expect: "Switzerlan"
+
+(define (beep robot)
+  (substring robot 0 (- (string-length robot) 1)))
