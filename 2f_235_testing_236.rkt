@@ -12,3 +12,4 @@
 (check-expect (f2c -40) -40)
 (check-expect (f2c 32) 0)
 (check-expect (f2c 212) 100)
+(check-expect (f2c -40) 40) ;fails
