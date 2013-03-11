@@ -264,7 +264,7 @@
 255 255 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 92 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
-255 0 -1 -1           0 244 0 4 3 85
+255 0 -1 -1           0 245 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
  #"y record metadata"
@@ -274,11 +274,10 @@
  #";; about the language level of this file in a form that our tools ca"
  #"n easily process."
 ) 0 0 4 29 1 #"\n"
-0 0 4 3 406
+0 0 4 3 409
 (
- #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname 2j_ex35) "
- #"(read-case-sensitive #t) (teachp"
- #"acks ((lib \"image.ss\" \"teachpa"
+ #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname |#2j_ex35"
+ #"|) (read-case-sensitive #t) (teachpacks ((lib \"image.ss\" \"teachpa"
  #"ck\" \"2htdp\") (lib \"batch-io.s"
  #"s\" \"teachpack\" \"2htdp\") (lib \"universe.ss\" \"teachpack\" \"2h"
  #"tdp\"))) (htdp-settings #(#t constructor repeating-decimal #f #t non"
@@ -290,7 +289,7 @@
 0 0 24 3 1 #"("
 0 0 16 3 6 #"define"
 0 0 4 3 1 #" "
-0 0 14 3 6 #"lagoon"
+0 0 14 3 6 #"LAGOON"
 0 0 4 3 1 #" "
 0 2         387 4 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0         188 500
@@ -6042,7 +6041,8 @@
 0 0 4 3 1 #" "
 0 0 20 3 7 #"\"solid\""
 0 0 4 3 1 #" "
-0 0 20 3 7 #"\"black\""
+0 0 20 3 6 #"\"black"
+0 0 20 3 1 #"\""
 0 0 24 3 3 #")))"
 0 0 4 29 1 #"\n"
 0 0 4 29 1 #"\n"
@@ -6051,7 +6051,7 @@
 0 0 4 3 1 #" "
 0 0 14 3 10 #"y-position"
 0 0 4 3 1 #" "
-0 0 22 3 2 #"50"
+0 0 22 3 2 #"45"
 0 0 24 3 1 #")"
 0 0 4 29 1 #"\n"
 0 0 24 3 1 #"("
@@ -6087,7 +6087,7 @@
 0 0 14 3 10 #"x-position"
 0 0 24 3 3 #")))"
 0 0 4 3 1 #" "
-0 0 14 3 6 #"lagoon"
+0 0 14 3 6 #"LAGOON"
 0 0 24 3 2 #"))"
 0 0 4 29 1 #"\n"
 0 0 24 3 1 #"("
@@ -6101,7 +6101,7 @@
 0 0 24 3 1 #"("
 0 0 14 3 11 #"image-width"
 0 0 4 3 1 #" "
-0 0 14 3 6 #"lagoon"
+0 0 14 3 6 #"LAGOON"
 0 0 24 3 1 #")"
 0 0 4 3 1 #" "
 0 0 24 3 1 #"("
